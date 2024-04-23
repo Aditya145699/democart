@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DEMOCART</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  </head>
+  <body>
+    <!-- Navbar starts -->
+    <nav class="flex align-center">
+      <p><span>DEMO</span>CART</p>
+      <div class="search-container">
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Search for products..." />
+        <button type="button" onclick="searchFunction()">
+          <i class="fa fa-search"></i>
+        </button>
+      </div>
+      <ul>
+        <li class="big-screens">
+          <a href="#categories">CATEGORIES</a>
+          <a href="#new-arrivals">NEW ARRIVALS</a>
+          <a href="#customise">CUSTOMISE</a>
+          <a href="#cart">CART</a>
+          <button class="btn register">Register</button>
+          <button class="btn login">Log In</button>
+        </li>
+        <li class="small-screens">
+          <i class="fa-solid fa-bars"></i>
+        </li>
+      </ul>
+    </nav>
+    <!-- Navbar endss -->
+    <!-- casoruel img starts -->
+    <!-- Slider container -->
+    <div class="slider-container">
+      <div class="slider">
+        <!-- slide 1 -->
+        <div class="slide">
+          <img src="images/img-1.jpg" alt="" />
+        </div>
+
+        <!-- slide 2 -->
+        <div class="slide">
+          <img src="images/img-2.jpg" alt="" />
+        </div>
+
+        <!-- slide 3 -->
+        <div class="slide">
+          <img src="images/img-3.jpg" alt="" />
+        </div>
+
+        <!-- slide 4 -->
+        <div class="slide">
+          <img src="images/img-4.jpg" alt="" />
+        </div>
+
+        <!-- Control buttons -->
+        <button class="btns btn-next">></button>
+        <button class="btns btn-prev"><</button>
+      </div>
+    </div>
+    <!-- slider ends here-->
+    <!--grid options-->
+    <div class="grid-container">
+      <div class="new-arrivals">
+        <p><span>NEW</span> ARRIVALS</p>
+      </div>
+      <div class="grid-item">
+        <img src="images/tshirt1.jpeg" alt="Image 1" />
+        <div class="explore">
+          <a href="#">explore</a>
+        </div>
+      </div>
+      <div class="grid-item">
+        <img src="images/tshirt2.jpeg" alt="Image 2" />
+        <div class="explore">
+          <a href="#">explore</a>
+        </div>
+      </div>
+      <div class="grid-item">
+        <img src="images/tshirt3.jpeg" alt="Image 3" />
+        <div class="explore">
+          <a href="#">explore</a>
+        </div>
+      </div>
+      <div class="grid-item">
+        <img src="images/tshirt4.jpeg" alt="Image 4" />
+        <div class="explore">
+          <a href="#">explore</a>
+        </div>
+      </div>
+      <div class="grid-item">
+        <img src="images/tshirt5.jpeg" alt="Image 5" />
+        <div class="explore">
+          <a href="#">explore</a>
+        </div>
+      </div>
+      <div class="grid-item">
+        <img src="images/tshirt6.jpeg" alt="Image 6" />
+        <div class="explore">
+          <a href="#">explore</a>
+        </div>
+      </div>
+      <div class="grid-item">
+        <img src="images/tshirt7.jpeg" alt="Image 7" />
+        <div class="explore">
+          <a href="#">explore</a>
+        </div>
+      </div>
+      <div class="grid-item">
+        <img src="images/tshirt8.jpeg" alt="Image 8" />
+        <div class="explore">
+          <a href="#">explore</a>
+        </div>
+      </div>
+    </div>
+    <!--NEW ARRIVALS END HERE-->
+    <!-- our CUSTOMISE tshirt-->
+    <section class="customizable-section">
+      <div class="customizable-content">
+        <h2><span>Our</span> Customisable <span>T-shirts</span></h2>
+        <p>Design your own unique t-shirts with our customizable options.</p>
+        <a href="#" class="explore-btn">Explore</a>
+      </div>
+    </section>
+    <!--customisable section ends-->
+    <!--Footer-->
+    <footer class="footer">
+      <div class="footer-content">
+        <p>&copy; 2024 DemoCart. All Rights Reserved. Created by adiii</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
